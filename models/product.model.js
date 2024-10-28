@@ -29,7 +29,7 @@ const ProductSchema = mongoose.Schema(
   }
 );
 
-
+// Product acts as a constructor and provides methods to interact with the "products" collection in MongoDB
 const Product = mongoose.model("Product", ProductSchema);
 
 export default Product;
